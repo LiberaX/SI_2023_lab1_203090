@@ -1,0 +1,62 @@
+ 154  cd Desktop/ - Vleguvam na Desktopot
+  155  mkdir SI_2023_lab1_203090 - Kreiram direktorium 
+  156  cd SI_2023_lab1_203090 - Vleguvam vo direktoriumot
+  157  git init - Go inicijaliziram git direktoriumot
+  158  git remote add origin https://github.com/LiberaX/SI_2023_lab1_203090.git 
+  Go povrzuvam lokalniot direktorium so github
+  159  touch README.md - Kreiram file README.md
+  160  nano README.md - Zapisuvam vo file-ot
+  161  git add README.md - File-ot go dodavam staging area
+  162  git commit -m "Initial commit" - Pravam commit na file-ot
+  163  touch SILab1.java - Kreiram file SILab1.java
+  164  nano SILab1.java Zapisuvam vo file-ot
+  165  git add SILab1.java - File-ot go dodavam vo staging area
+  166  git commit -m "Add java class" - Pravam commit na file-ot
+  167  git push origin master - Po pushnuvam na master grankata
+  168  git switch -c bug1 - Kreiram i se prefrluvam na nova granka
+  169  git switch -c bug2 - Kreiram i se prefrluvam na nova granka
+  170  git switch -c bug3 - Kreiram i se prefrluvam na nova granka
+  171  git branches
+  172  git branch - Proveruvam dali se kreirani grankite
+  173  git switch bug1 - Se prefrluvam na grankata bug1
+  174  nano SILab1.java - Zapisuvam, odnosno go popravam bug-ot od postoeckiot 
+  file
+  175  git commit -am "Fix wrong loop for reading" - Go dodavam vo staging area 
+  i go komitnuvam so poraka file-ot
+  176  git switch bug2 - Se prefrluvam na grankata bug2
+  177  nano SILab1.java - Zapisuvam, odnosno go popravam bug-ot od postoeckiot
+  file
+  178  git commit -am "Fix wrong condition in filterOddNumbers" - Go dodavam vo 
+  staging area i go komitnuvam so poraka file-ot
+  179  git switch bug3 - Se prefrluvam na grankata bug3
+  180  nano SILab1.java  - Zapisuvam, odnosno go popravam bug-ot od postoeckiot
+  file
+  181  git commit -am "Fix method sumEvenNumbers" - Go dodavam vo
+  staging area i go komitnuvam so poraka file-ot
+  182  git push origin bug1 bug2 bug3 - Gi pushnuvam site tri branches(bugs) na 
+  github 
+  183  git switch master - Se prefrlame na master branchot
+  184  git merge bug1 - Spojuvam bug1 so master
+  So 18toto baranje koga spojuvav nemase nikakov konflikt, se koristi FF 
+  strategija
+
+  185  git push origin master - Go pushnuvam na master grankata
+  186  git merge bug2 - Pak spojuvam, bug2 so master
+  So 20toto baranje koga spojuvav nemase konflikt no mi pobara da napisam 
+  commit message, se koristi FF strategija
+ 
+  187  git push origin master - Pak pushnuvam na master grankata
+  188  git switch bug3 - Se prefrluvam na grankata bug3
+  Isto taka i ovde ne se pojavi konflikt, se koristi FF strategija
+
+  189  cat SILab1.java - Go printam kodot od file-ot
+  190  git rebase master - Pravam rebase na bug3 od master za poslednite promeni
+  191  cat SILab1.java - Gi printam promenite od master, pravam proverka
+  192  git switch master - Se prefrluvam na master grankata
+  193  git merge bug3 - Gi spojuvam bug3 so master
+  194  git push origin master - Ja dodavam na master grankata
+  195  git log - Gi pechatime site komiti
+  196  git log >> logs.txt - Site komiti gi zapisuvam vo logs.txt file-ot
+  197  cat logs.txt - Pechatam logs.txt za proverka
+  198  touch 203090.txt - kreiram file
+  199  nano 203090.txt - Zapishuvam vo file-ot

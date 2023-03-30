@@ -1,0 +1,36 @@
+commit cb0d1414d34a318dc512f2be780eb8895592c676
+Author: LiberaX <dimitarpower@gmail.com>
+Date:   Thu Mar 30 14:08:26 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit b162461cb6c59de42bac716559ad61c84397c858
+Merge: d280c89 8ab8456
+Author: LiberaX <dimitarpower@gmail.com>
+Date:   Thu Mar 30 14:10:56 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 8ab8456bc4d3cb8920a0cb2cb062064deb49c646
+Author: LiberaX <dimitarpower@gmail.com>
+Date:   Thu Mar 30 14:07:32 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit d280c89f9b03dec27288fc9746d28120307fa741
+Author: LiberaX <dimitarpower@gmail.com>
+Date:   Thu Mar 30 14:06:25 2023 +0200
+
+    Fix wrong loop for reading
+
+commit caf99924e8737167b4f9ae34eed4d782424126c3
+Author: LiberaX <dimitarpower@gmail.com>
+Date:   Thu Mar 30 14:03:19 2023 +0200
+
+    Add java class
+
+commit 947c27c839d47b62662be33a3f33fd4bc1f0bac1
+Author: LiberaX <dimitarpower@gmail.com>
+Date:   Thu Mar 30 14:01:51 2023 +0200
+
+    Initial commit
